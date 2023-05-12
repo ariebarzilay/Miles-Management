@@ -13,19 +13,13 @@ public class Miles_Management {
         Scanner keyboard = new Scanner(System.in);
         System.out.println("Enter [Y] or [y] if participates in promotion:");
         String bonus = keyboard.nextLine();
-        //System.out.println(bonus);
 
         System.out.println("Enter customer mileage:");
         int customerMileage = keyboard.nextInt();
-        //System.out.println(customerMileage);
 
         System.out.println("Enter customer segments:");
         int customerSegments = keyboard.nextInt();
-        //System.out.println(customerSegments);
 
-        //System.out.println("Pomotion input: " + bonus);
-        //System.out.println("Mileage input: " + customerMileage);
-        //System.out.println("Segments input: " + customerSegments);
         String applyBonus = bonus.substring(0, 1);
         String applyBonusLower = applyBonus.toLowerCase();
         int totalMiles = customerMileage;
@@ -39,12 +33,6 @@ public class Miles_Management {
             totalSegments = customerSegments + BONUS_SEGMENTS;
 
         }
-
-        //System.out.println("Original mileage: " + customerMileage);
-        //System.out.println("Original segments: " + customerSegments);
-        //System.out.println("Bonused mileage: " + totalMiles);
-        //System.out.println("Bonused segments: " + totalSegments);
-        
 
         String status = "";
 
