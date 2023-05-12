@@ -28,7 +28,6 @@ public class Miles_Management {
         boolean promo = applyBonusLower.equals("y");
 
         if (promo) {
-            //System.out.println("Promo yes");
             totalMiles = customerMileage + BONUS_MILES;
             totalSegments = customerSegments + BONUS_SEGMENTS;
 
